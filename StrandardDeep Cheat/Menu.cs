@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Linq;
@@ -119,6 +119,7 @@ namespace StrandardDeep_Cheat
             Menu.sharkESP = GUILayout.Toggle(Menu.sharkESP, "Sharks", new GUILayoutOption[0]);
             Menu.SkinnableESP = GUILayout.Toggle(Menu.SkinnableESP, "Skinnable", new GUILayoutOption[0]);
             Menu.WhaleESP = GUILayout.Toggle(Menu.WhaleESP, "Whale", new GUILayoutOption[0]);
+            Menu.BoarESP = GUILayout.Toggle(Menu.BoarESP, "Boar", new GUILayoutOption[0]);
             GUI.DragWindow();
         }
 
@@ -172,9 +173,10 @@ namespace StrandardDeep_Cheat
         public static bool sharkESP = false;
         public static bool WhaleESP = false;
         public static bool SkinnableESP = false;
+        public static bool BoarESP = false;
+
         public static bool ResourcesESP = false;
         public static bool FuelCanESP = false;
-
         public static bool RaftESP = false;
         public static bool MiningRocksESP = false;
         public static bool FoodESP = false;
