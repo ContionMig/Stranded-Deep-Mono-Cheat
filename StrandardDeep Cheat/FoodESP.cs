@@ -24,11 +24,11 @@ namespace StrandardDeep_Cheat
             {
                 if (Menu.FoodESP)
                 {
-                    IEnumerable<InteractiveObject_FOOD> playerProxies = FindObjectsOfType<InteractiveObject_FOOD>();
-                    foreach (InteractiveObject_FOOD playerProxy in playerProxies)
+                    IEnumerable<InteractiveObject_FOOD> FishProxies = FindObjectsOfType<InteractiveObject_FOOD>();
+                    foreach (InteractiveObject_FOOD FishProxy in FishProxies)
                     {
                         Player localplayer = FindObjectsOfType<Player>()[0];
-                        Vector3 pos = playerProxy.transform.position;
+                        Vector3 pos = FishProxy.transform.position;
                         float dist = Vector3.Distance(pos, localplayer.transform.position);
                         if (dist < Menu.LoopDist)
                         {
@@ -37,7 +37,7 @@ namespace StrandardDeep_Cheat
 
                             if (posScreen.z > 0 & posScreen.y < Screen.width - 2)
                             {
-                                //Interactive_FISHES proxyName = playerProxy.GetComponent<Interactive_FISHES>();
+                                //Interactive_FISHES proxyName = FishProxy.GetComponent<Interactive_FISHES>();
 
                                 string playerName = "Food";
                                 posScreen.y = Screen.height - (posScreen.y + 1f);
