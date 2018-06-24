@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +29,7 @@ namespace StrandardDeep_Cheat
             Loader._loadObject.AddComponent<ResourcesHARVESTRESOURCEESP>();
             Loader._loadObject.AddComponent<ResourcesPALM_LOGESP>();
             Loader._loadObject.AddComponent<FuelCanESP>();
+            Loader._loadObject.AddComponent<BoarESP>();
             Loader._loadObject.AddComponent<MissionBoardsESP>();
             //Loader._loadObject.AddComponent<PickupESP>();
             GameObject.DontDestroyOnLoad(Loader._loadObject);
