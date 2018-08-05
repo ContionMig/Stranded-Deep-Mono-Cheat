@@ -41,8 +41,8 @@ Get A Mono Injector ( MInjector )
 Inject .dll Into the Game
 
 # Settings
--Namespace: StrandardDeep_Cheat
--Class: Loader
--Method: Load
+- Namespace: StrandardDeep_Cheat
+- Class: Loader
+- Method: Load
 
 Make sure to tick "Hide From AssemblyLoad Callback"
