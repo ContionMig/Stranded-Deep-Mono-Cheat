@@ -1,10 +1,48 @@
 # Stranded-Deep-Mono-Cheat
-A Cheat I Made Using C# In My Free Time Trying To Improve Myself. Enjoy!
+[[My Website]](https://theherobrine9.wixsite.com/website/)
 
-Inject The .DLL Into Stranded Deep Using A Mono Injector. Press [HOME] To Activate The Menu. Beware, There Are Some Lag Issues.
+# Features
+#### Loot ESP
+- Food
+- Mining Rocks
+- Raft
+- Resources
+- Fuel Can
+- Distance
 
-Helped By Zat & Ghostery!
+#### Entity ESP
+- Crab
+- Bird
+- Fish
+- Sharks
+- Skinnable
+- Whales
+- Boar
+- Distance
 
-Want To Support Me? Follow Me! or Donate To My Paypal!
+#### Others
+- Day Time Multiplier
+- Night Time Multiplayer
+- Missions Boards
+- Infinite Health
+- Infinite Hunger
+- Infinite Water
+- Infinite Sleep
+- Crosshair
+- NoClip
+- Infinite Oxygen
+- GodMode
 
-Paypal: anthonywong35712@gmail.com
+#### Extra
+- Unload
+
+# How To Use?
+Get A Mono Injector ( MInjector )
+Inject .dll Into the Game
+
+# Settings
+Namespace: StrandardDeep_Cheat
+Class: Loader
+Method: Load
+
+Make sure to tick "Hide From AssemblyLoad Callback"
