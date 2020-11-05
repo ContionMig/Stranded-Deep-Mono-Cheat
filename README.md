@@ -1,5 +1,5 @@
 # Stranded-Deep-Mono-Cheat
-[[My Website]](http://sagaanpillai.com/)
+[[My Website]](https://mitsuzi.xyz/)
 
 # Features
 #### Loot ESP
